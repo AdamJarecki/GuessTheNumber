@@ -23,6 +23,5 @@ class GuessTheNumber:
             self.tries += 1 
         print("You lose! The number was " + str(self.number) + "!")
 
-
 game = GuessTheNumber()
 game.guessTheNumber()
